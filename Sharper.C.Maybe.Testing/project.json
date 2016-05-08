@@ -1,0 +1,17 @@
+﻿{ "version": "0.1.0-*"
+, "description": "Properties and Arbitrary instances for Sharper.C.Maybe"
+, "authors": ["Jeremy Hughes <jeremy@tflite.com>"]
+, "projectUrl": "https://github.com/sharper-library/Sharper.C.Maybe"
+, "licenseUrl": "https://raw.githubusercontent.com/sharper-library/Sharper.C.Maybe/master/LICENSE.txt"
+
+, "dependencies":
+  { "Sharper.C.Maybe": ""
+  , "Sharper.C.Testing": "0.1.0-*"
+  }
+
+, "frameworks":
+  { "dnx451":
+    {
+    }
+  }
+}

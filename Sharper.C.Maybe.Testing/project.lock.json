@@ -1,0 +1,1220 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    "DNX,Version=v4.5.1": {
+      "FsCheck/2.2.4": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "3.1.2.5"
+        },
+        "compile": {
+          "lib/net45/FsCheck.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FsCheck.dll": {}
+        }
+      },
+      "FSharp.Core/3.1.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net40/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net40/FSharp.Core.dll": {}
+        }
+      },
+      "Fuchu/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "3.1.2.1"
+        },
+        "compile": {
+          "lib/Fuchu.dll": {}
+        },
+        "runtime": {
+          "lib/Fuchu.dll": {}
+        }
+      },
+      "Fuchu.FsCheck/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "FsCheck": "2.2.4",
+          "FSharp.Core": "3.1.2.5",
+          "Fuchu": "1.0.3"
+        },
+        "compile": {
+          "lib/Fuchu.FsCheck.dll": {}
+        },
+        "runtime": {
+          "lib/Fuchu.FsCheck.dll": {}
+        }
+      },
+      "Sharper.C.Eq/0.1.0-build-00002": {
+        "type": "package",
+        "dependencies": {
+          "Sharper.C.Lang.Typeclass": "0.1.0-build-00002"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Sharper.C.Eq.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Sharper.C.Eq.dll": {}
+        }
+      },
+      "Sharper.C.Lang.Typeclass/0.1.0-build-00002": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Sharper.C.Lang.Typeclass.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Sharper.C.Lang.Typeclass.dll": {}
+        }
+      },
+      "Sharper.C.Maybe/0.1.0-z": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1",
+        "dependencies": {
+          "Sharper.C.Eq": "0.1.0",
+          "Sharper.C.Product": "0.1.0"
+        },
+        "frameworkAssemblies": [
+          "System.Linq"
+        ]
+      },
+      "Sharper.C.Product/0.1.0-z": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Sharper.C.Product.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Sharper.C.Product.dll": {}
+        }
+      },
+      "Sharper.C.Testing/0.1.0-dev": {
+        "type": "package",
+        "dependencies": {
+          "Fuchu.FsCheck": "1.0.3",
+          "System.Collections.Immutable": "1.1.38-beta-23516"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Collections",
+          "System.Core",
+          "System.Runtime"
+        ],
+        "compile": {
+          "lib/dnx451/Sharper.C.Testing.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Sharper.C.Testing.dll": {}
+        }
+      },
+      "System.Collections/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Collections.Immutable/1.1.38-beta-23516": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.0",
+          "System.Diagnostics.Debug": "4.0.0",
+          "System.Globalization": "4.0.0",
+          "System.Linq": "4.0.0",
+          "System.Resources.ResourceManager": "4.0.0",
+          "System.Runtime": "4.0.0",
+          "System.Runtime.Extensions": "4.0.0",
+          "System.Threading": "4.0.0"
+        },
+        "compile": {
+          "lib/dotnet5.1/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.1/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.Diagnostics.Debug/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Globalization/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Linq/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Resources.ResourceManager/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.Extensions/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Threading/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x86": {
+      "FsCheck/2.2.4": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "3.1.2.5"
+        },
+        "compile": {
+          "lib/net45/FsCheck.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FsCheck.dll": {}
+        }
+      },
+      "FSharp.Core/3.1.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net40/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net40/FSharp.Core.dll": {}
+        }
+      },
+      "Fuchu/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "3.1.2.1"
+        },
+        "compile": {
+          "lib/Fuchu.dll": {}
+        },
+        "runtime": {
+          "lib/Fuchu.dll": {}
+        }
+      },
+      "Fuchu.FsCheck/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "FsCheck": "2.2.4",
+          "FSharp.Core": "3.1.2.5",
+          "Fuchu": "1.0.3"
+        },
+        "compile": {
+          "lib/Fuchu.FsCheck.dll": {}
+        },
+        "runtime": {
+          "lib/Fuchu.FsCheck.dll": {}
+        }
+      },
+      "Sharper.C.Eq/0.1.0-build-00002": {
+        "type": "package",
+        "dependencies": {
+          "Sharper.C.Lang.Typeclass": "0.1.0-build-00002"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Sharper.C.Eq.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Sharper.C.Eq.dll": {}
+        }
+      },
+      "Sharper.C.Lang.Typeclass/0.1.0-build-00002": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Sharper.C.Lang.Typeclass.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Sharper.C.Lang.Typeclass.dll": {}
+        }
+      },
+      "Sharper.C.Maybe/0.1.0-z": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1",
+        "dependencies": {
+          "Sharper.C.Eq": "0.1.0",
+          "Sharper.C.Product": "0.1.0"
+        },
+        "frameworkAssemblies": [
+          "System.Linq"
+        ]
+      },
+      "Sharper.C.Product/0.1.0-z": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Sharper.C.Product.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Sharper.C.Product.dll": {}
+        }
+      },
+      "Sharper.C.Testing/0.1.0-dev": {
+        "type": "package",
+        "dependencies": {
+          "Fuchu.FsCheck": "1.0.3",
+          "System.Collections.Immutable": "1.1.38-beta-23516"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Collections",
+          "System.Core",
+          "System.Runtime"
+        ],
+        "compile": {
+          "lib/dnx451/Sharper.C.Testing.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Sharper.C.Testing.dll": {}
+        }
+      },
+      "System.Collections/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Collections.Immutable/1.1.38-beta-23516": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.0",
+          "System.Diagnostics.Debug": "4.0.0",
+          "System.Globalization": "4.0.0",
+          "System.Linq": "4.0.0",
+          "System.Resources.ResourceManager": "4.0.0",
+          "System.Runtime": "4.0.0",
+          "System.Runtime.Extensions": "4.0.0",
+          "System.Threading": "4.0.0"
+        },
+        "compile": {
+          "lib/dotnet5.1/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.1/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.Diagnostics.Debug/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Globalization/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Linq/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Resources.ResourceManager/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.Extensions/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Threading/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x64": {
+      "FsCheck/2.2.4": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "3.1.2.5"
+        },
+        "compile": {
+          "lib/net45/FsCheck.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FsCheck.dll": {}
+        }
+      },
+      "FSharp.Core/3.1.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net40/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net40/FSharp.Core.dll": {}
+        }
+      },
+      "Fuchu/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "3.1.2.1"
+        },
+        "compile": {
+          "lib/Fuchu.dll": {}
+        },
+        "runtime": {
+          "lib/Fuchu.dll": {}
+        }
+      },
+      "Fuchu.FsCheck/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "FsCheck": "2.2.4",
+          "FSharp.Core": "3.1.2.5",
+          "Fuchu": "1.0.3"
+        },
+        "compile": {
+          "lib/Fuchu.FsCheck.dll": {}
+        },
+        "runtime": {
+          "lib/Fuchu.FsCheck.dll": {}
+        }
+      },
+      "Sharper.C.Eq/0.1.0-build-00002": {
+        "type": "package",
+        "dependencies": {
+          "Sharper.C.Lang.Typeclass": "0.1.0-build-00002"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Sharper.C.Eq.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Sharper.C.Eq.dll": {}
+        }
+      },
+      "Sharper.C.Lang.Typeclass/0.1.0-build-00002": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Sharper.C.Lang.Typeclass.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Sharper.C.Lang.Typeclass.dll": {}
+        }
+      },
+      "Sharper.C.Maybe/0.1.0-z": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1",
+        "dependencies": {
+          "Sharper.C.Eq": "0.1.0",
+          "Sharper.C.Product": "0.1.0"
+        },
+        "frameworkAssemblies": [
+          "System.Linq"
+        ]
+      },
+      "Sharper.C.Product/0.1.0-z": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Sharper.C.Product.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Sharper.C.Product.dll": {}
+        }
+      },
+      "Sharper.C.Testing/0.1.0-dev": {
+        "type": "package",
+        "dependencies": {
+          "Fuchu.FsCheck": "1.0.3",
+          "System.Collections.Immutable": "1.1.38-beta-23516"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Collections",
+          "System.Core",
+          "System.Runtime"
+        ],
+        "compile": {
+          "lib/dnx451/Sharper.C.Testing.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Sharper.C.Testing.dll": {}
+        }
+      },
+      "System.Collections/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Collections.Immutable/1.1.38-beta-23516": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.0",
+          "System.Diagnostics.Debug": "4.0.0",
+          "System.Globalization": "4.0.0",
+          "System.Linq": "4.0.0",
+          "System.Resources.ResourceManager": "4.0.0",
+          "System.Runtime": "4.0.0",
+          "System.Runtime.Extensions": "4.0.0",
+          "System.Threading": "4.0.0"
+        },
+        "compile": {
+          "lib/dotnet5.1/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.1/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.Diagnostics.Debug/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Globalization/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Linq/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Resources.ResourceManager/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.Extensions/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Threading/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sharper.C.Maybe/0.1.0-z": {
+      "type": "project",
+      "path": "../Sharper.C.Maybe/project.json"
+    },
+    "FsCheck/2.2.4": {
+      "type": "package",
+      "sha512": "FF+XVwzwn0xKPXG4zXkxks/3ZNBSQ6eenyo9jPwaSj84Qr7flKXLGd1SpDTALay7FzmovuqQxbrCGs+HD0sGwg==",
+      "files": [
+        "FsCheck.2.2.4.nupkg",
+        "FsCheck.2.2.4.nupkg.sha512",
+        "FsCheck.nuspec",
+        "lib/net45/FsCheck.dll",
+        "lib/net45/FsCheck.pdb",
+        "lib/net45/FsCheck.xml",
+        "lib/portable-net45+netcore45/FsCheck.dll",
+        "lib/portable-net45+netcore45/FsCheck.pdb",
+        "lib/portable-net45+netcore45/FsCheck.XML",
+        "lib/portable-net45+netcore45+wp8/FsCheck.dll",
+        "lib/portable-net45+netcore45+wp8/FsCheck.pdb",
+        "lib/portable-net45+netcore45+wp8/FsCheck.XML",
+        "lib/portable-net45+netcore45+wpa81+wp8/FsCheck.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/FsCheck.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8/FsCheck.XML"
+      ]
+    },
+    "FSharp.Core/3.1.2.5": {
+      "type": "package",
+      "sha512": "1V9wPWZuLgewzk01tc5wRyGrmdOI+Lc9/MsAeMXFffjjGA1Ydv5KU2mnWLz+O6TcHeACwK0M3yHbb/we233vvg==",
+      "files": [
+        "FSharp.Core.3.1.2.5.nupkg",
+        "FSharp.Core.3.1.2.5.nupkg.sha512",
+        "FSharp.Core.nuspec",
+        "lib/net20/FSharp.Core.dll",
+        "lib/net20/FSharp.Core.optdata",
+        "lib/net20/FSharp.Core.sigdata",
+        "lib/net20/FSharp.Core.xml",
+        "lib/net40/FSharp.Core.dll",
+        "lib/net40/FSharp.Core.optdata",
+        "lib/net40/FSharp.Core.sigdata",
+        "lib/net40/FSharp.Core.xml",
+        "lib/portable-net45+monoandroid10+monotouch10+xamarinios10/FSharp.Core.dll",
+        "lib/portable-net45+monoandroid10+monotouch10+xamarinios10/FSharp.Core.optdata",
+        "lib/portable-net45+monoandroid10+monotouch10+xamarinios10/FSharp.Core.sigdata",
+        "lib/portable-net45+monoandroid10+monotouch10+xamarinios10/FSharp.Core.xml",
+        "lib/portable-net45+netcore45/FSharp.Core.dll",
+        "lib/portable-net45+netcore45/FSharp.Core.optdata",
+        "lib/portable-net45+netcore45/FSharp.Core.sigdata",
+        "lib/portable-net45+netcore45/FSharp.Core.xml",
+        "lib/portable-net45+netcore45+wp8/FSharp.Core.dll",
+        "lib/portable-net45+netcore45+wp8/FSharp.Core.optdata",
+        "lib/portable-net45+netcore45+wp8/FSharp.Core.sigdata",
+        "lib/portable-net45+netcore45+wp8/FSharp.Core.xml",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Core.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Core.optdata",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Core.sigdata",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Core.xml",
+        "lib/portable-net45+sl5+netcore45/FSharp.Core.dll",
+        "lib/portable-net45+sl5+netcore45/FSharp.Core.optdata",
+        "lib/portable-net45+sl5+netcore45/FSharp.Core.sigdata",
+        "lib/portable-net45+sl5+netcore45/FSharp.Core.xml"
+      ]
+    },
+    "Fuchu/1.0.3": {
+      "type": "package",
+      "sha512": "Ux3gNTOFyJloKwe7jfgq3H2+nbryBJmgWI5E6JrFThVzh3mnrPhoNo56qTCeoyzIcSqKCx3zvChMs8YK2JgKYA==",
+      "files": [
+        "Fuchu.1.0.3.nupkg",
+        "Fuchu.1.0.3.nupkg.sha512",
+        "Fuchu.nuspec",
+        "lib/Fuchu.dll",
+        "lib/Fuchu.pdb",
+        "lib/Fuchu.XML"
+      ]
+    },
+    "Fuchu.FsCheck/1.0.3": {
+      "type": "package",
+      "sha512": "4GY/cNwNyMeuvzGqEBeIHXBHsCZ0h1BcQgh6qpvamnjfDTJjoqL/7wPPWjbRPnIfVtgQ7acPnVHGcQjMQ5kFZw==",
+      "files": [
+        "Fuchu.FsCheck.1.0.3.nupkg",
+        "Fuchu.FsCheck.1.0.3.nupkg.sha512",
+        "Fuchu.FsCheck.nuspec",
+        "lib/Fuchu.FsCheck.dll",
+        "lib/Fuchu.FsCheck.pdb",
+        "lib/Fuchu.FsCheck.XML"
+      ]
+    },
+    "Sharper.C.Eq/0.1.0-build-00002": {
+      "type": "package",
+      "sha512": "SubXFIV2b8JrfdcsWtpp0pSPwXyuztVxtXbYJ1mQnRBTrD/KIkzREzad9EEtCdtmM2xu+OE78evBNzlK5iR1sw==",
+      "files": [
+        "lib/dnx451/Sharper.C.Eq.dll",
+        "lib/dnx451/Sharper.C.Eq.xml",
+        "lib/dotnet/Sharper.C.Eq.dll",
+        "lib/dotnet/Sharper.C.Eq.xml",
+        "lib/net451/Sharper.C.Eq.dll",
+        "lib/net451/Sharper.C.Eq.xml",
+        "Sharper.C.Eq.0.1.0-build-00002.nupkg",
+        "Sharper.C.Eq.0.1.0-build-00002.nupkg.sha512",
+        "Sharper.C.Eq.nuspec"
+      ]
+    },
+    "Sharper.C.Lang.Typeclass/0.1.0-build-00002": {
+      "type": "package",
+      "sha512": "5FtBc6OtYwoOz9ziz15mBtKRBgR4ivPPCOc+sMbXUkIKyOUxasehp8paDbrlX9/VTPeQGFWK4DGMzqYzmf2zUg==",
+      "files": [
+        "lib/dnx451/Sharper.C.Lang.Typeclass.dll",
+        "lib/dnx451/Sharper.C.Lang.Typeclass.xml",
+        "lib/dotnet/Sharper.C.Lang.Typeclass.dll",
+        "lib/dotnet/Sharper.C.Lang.Typeclass.xml",
+        "lib/net451/Sharper.C.Lang.Typeclass.dll",
+        "lib/net451/Sharper.C.Lang.Typeclass.xml",
+        "Sharper.C.Lang.Typeclass.0.1.0-build-00002.nupkg",
+        "Sharper.C.Lang.Typeclass.0.1.0-build-00002.nupkg.sha512",
+        "Sharper.C.Lang.Typeclass.nuspec"
+      ]
+    },
+    "Sharper.C.Product/0.1.0-z": {
+      "type": "package",
+      "sha512": "Rw8tsZS2K4grrjHlBZ5lZJLl+pPGgUsFHWcTzjmjq4N43iYlgNSGvuhRZsPsbnhbB+QVTCBNlwcMT11ow0TExA==",
+      "files": [
+        "lib/dnx451/Sharper.C.Product.dll",
+        "lib/dnx451/Sharper.C.Product.pdb",
+        "lib/dnx451/Sharper.C.Product.xml",
+        "lib/dotnet/Sharper.C.Product.dll",
+        "lib/dotnet/Sharper.C.Product.pdb",
+        "lib/dotnet/Sharper.C.Product.xml",
+        "lib/net451/Sharper.C.Product.dll",
+        "lib/net451/Sharper.C.Product.pdb",
+        "lib/net451/Sharper.C.Product.xml",
+        "Sharper.C.Product.0.1.0-z.nupkg",
+        "Sharper.C.Product.0.1.0-z.nupkg.sha512",
+        "Sharper.C.Product.nuspec",
+        "src/Sharper.C.Product/Data/ProductModule.cs"
+      ]
+    },
+    "Sharper.C.Testing/0.1.0-dev": {
+      "type": "package",
+      "sha512": "j6xLBXiX2tfxisqK/6k6PHrM0oTb0QRmGYOcLYx+NvAEllLKdBJVcv1mlPrCe4yif2qP609m+8l98idwOFPI6g==",
+      "files": [
+        "lib/dnx451/Sharper.C.Testing.dll",
+        "lib/dnx451/Sharper.C.Testing.pdb",
+        "lib/dnx451/Sharper.C.Testing.xml",
+        "Sharper.C.Testing.0.1.0-dev.nupkg",
+        "Sharper.C.Testing.0.1.0-dev.nupkg.sha512",
+        "Sharper.C.Testing.nuspec",
+        "src/Sharper.C.Testing/Testing/Laws/ApplyLaws.cs",
+        "src/Sharper.C.Testing/Testing/Laws/EqualityLaws.cs",
+        "src/Sharper.C.Testing/Testing/Laws/FunctorLaws.cs",
+        "src/Sharper.C.Testing/Testing/Laws/HashingLaws.cs",
+        "src/Sharper.C.Testing/Testing/Laws/MonadLaws.cs",
+        "src/Sharper.C.Testing/Testing/Laws/OrderingLaws.cs",
+        "src/Sharper.C.Testing/Testing/Laws/SerializingLaws.cs",
+        "src/Sharper.C.Testing/Testing/Properties/FunctionPropertiesModule.cs",
+        "src/Sharper.C.Testing/Testing/Properties/OperationPropertiesModule.cs",
+        "src/Sharper.C.Testing/Testing/Properties/RelationPropertiesModule.cs",
+        "src/Sharper.C.Testing/Testing/Properties/RuntimePropertiesModule.cs",
+        "src/Sharper.C.Testing/Testing/PropertyModule.cs",
+        "src/Sharper.C.Testing/Testing/SystemArbitraryModule.cs",
+        "src/Sharper.C.Testing/Testing/SystemArbitraryModule_Array.cs",
+        "src/Sharper.C.Testing/Testing/SystemArbitraryModule_bool.cs",
+        "src/Sharper.C.Testing/Testing/SystemArbitraryModule_byte.cs",
+        "src/Sharper.C.Testing/Testing/SystemArbitraryModule_char.cs",
+        "src/Sharper.C.Testing/Testing/SystemArbitraryModule_decimal.cs",
+        "src/Sharper.C.Testing/Testing/SystemArbitraryModule_Dictionary.cs",
+        "src/Sharper.C.Testing/Testing/SystemArbitraryModule_double.cs",
+        "src/Sharper.C.Testing/Testing/SystemArbitraryModule_float.cs",
+        "src/Sharper.C.Testing/Testing/SystemArbitraryModule_Func.cs",
+        "src/Sharper.C.Testing/Testing/SystemArbitraryModule_IEnumerable.cs",
+        "src/Sharper.C.Testing/Testing/SystemArbitraryModule_int.cs",
+        "src/Sharper.C.Testing/Testing/SystemArbitraryModule_long.cs",
+        "src/Sharper.C.Testing/Testing/SystemArbitraryModule_null.cs",
+        "src/Sharper.C.Testing/Testing/SystemArbitraryModule_Nullable.cs",
+        "src/Sharper.C.Testing/Testing/SystemArbitraryModule_Stream.cs",
+        "src/Sharper.C.Testing/Testing/SystemArbitraryModule_string.cs"
+      ]
+    },
+    "System.Collections/4.0.0": {
+      "type": "package",
+      "sha512": "i2vsGDIEbWdHcUSNDPKZP/ZWod6o740el7mGTCy0dqbCxQh74W4QoC+klUwPEtGEFuvzJ7bJgvwJqscosVNyZQ==",
+      "files": [
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "License.rtf",
+        "ref/dotnet/de/System.Collections.xml",
+        "ref/dotnet/es/System.Collections.xml",
+        "ref/dotnet/fr/System.Collections.xml",
+        "ref/dotnet/it/System.Collections.xml",
+        "ref/dotnet/ja/System.Collections.xml",
+        "ref/dotnet/ko/System.Collections.xml",
+        "ref/dotnet/ru/System.Collections.xml",
+        "ref/dotnet/System.Collections.dll",
+        "ref/dotnet/System.Collections.xml",
+        "ref/dotnet/zh-hans/System.Collections.xml",
+        "ref/dotnet/zh-hant/System.Collections.xml",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/de/System.Collections.xml",
+        "ref/netcore50/es/System.Collections.xml",
+        "ref/netcore50/fr/System.Collections.xml",
+        "ref/netcore50/it/System.Collections.xml",
+        "ref/netcore50/ja/System.Collections.xml",
+        "ref/netcore50/ko/System.Collections.xml",
+        "ref/netcore50/ru/System.Collections.xml",
+        "ref/netcore50/System.Collections.dll",
+        "ref/netcore50/System.Collections.xml",
+        "ref/netcore50/zh-hans/System.Collections.xml",
+        "ref/netcore50/zh-hant/System.Collections.xml",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "System.Collections.4.0.0.nupkg",
+        "System.Collections.4.0.0.nupkg.sha512",
+        "System.Collections.nuspec"
+      ]
+    },
+    "System.Collections.Immutable/1.1.38-beta-23516": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "flV1yepTxfX6nUnJex2kSUeYc/kgVBb7AsZQRpQbSjd3/xdFkS5rKm+bObHb/AjKLNtDY3emoNH8fNvwqrZX+w==",
+      "files": [
+        "lib/dotnet5.1/System.Collections.Immutable.dll",
+        "lib/dotnet5.1/System.Collections.Immutable.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml",
+        "System.Collections.Immutable.1.1.38-beta-23516.nupkg",
+        "System.Collections.Immutable.1.1.38-beta-23516.nupkg.sha512",
+        "System.Collections.Immutable.nuspec"
+      ]
+    },
+    "System.Diagnostics.Debug/4.0.0": {
+      "type": "package",
+      "sha512": "AYJsLLGDVTC/nyURjgAo7Lpye0+HuSkcQujUf+NgQVdC/C/ky5NyamQHCforHJzgqspitMMtBe8B4UBdGXy1zQ==",
+      "files": [
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "License.rtf",
+        "ref/dotnet/de/System.Diagnostics.Debug.xml",
+        "ref/dotnet/es/System.Diagnostics.Debug.xml",
+        "ref/dotnet/fr/System.Diagnostics.Debug.xml",
+        "ref/dotnet/it/System.Diagnostics.Debug.xml",
+        "ref/dotnet/ja/System.Diagnostics.Debug.xml",
+        "ref/dotnet/ko/System.Diagnostics.Debug.xml",
+        "ref/dotnet/ru/System.Diagnostics.Debug.xml",
+        "ref/dotnet/System.Diagnostics.Debug.dll",
+        "ref/dotnet/System.Diagnostics.Debug.xml",
+        "ref/dotnet/zh-hans/System.Diagnostics.Debug.xml",
+        "ref/dotnet/zh-hant/System.Diagnostics.Debug.xml",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/de/System.Diagnostics.Debug.xml",
+        "ref/netcore50/es/System.Diagnostics.Debug.xml",
+        "ref/netcore50/fr/System.Diagnostics.Debug.xml",
+        "ref/netcore50/it/System.Diagnostics.Debug.xml",
+        "ref/netcore50/ja/System.Diagnostics.Debug.xml",
+        "ref/netcore50/ko/System.Diagnostics.Debug.xml",
+        "ref/netcore50/ru/System.Diagnostics.Debug.xml",
+        "ref/netcore50/System.Diagnostics.Debug.dll",
+        "ref/netcore50/System.Diagnostics.Debug.xml",
+        "ref/netcore50/zh-hans/System.Diagnostics.Debug.xml",
+        "ref/netcore50/zh-hant/System.Diagnostics.Debug.xml",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "System.Diagnostics.Debug.4.0.0.nupkg",
+        "System.Diagnostics.Debug.4.0.0.nupkg.sha512",
+        "System.Diagnostics.Debug.nuspec"
+      ]
+    },
+    "System.Globalization/4.0.0": {
+      "type": "package",
+      "sha512": "IBJyTo1y7ZtzzoJUA60T1XPvNTyw/wfFmjFoBFtlYfkekIOtD/AzDDIg0YdUa7eNtFEfliED2R7HdppTdU4t5A==",
+      "files": [
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "License.rtf",
+        "ref/dotnet/de/System.Globalization.xml",
+        "ref/dotnet/es/System.Globalization.xml",
+        "ref/dotnet/fr/System.Globalization.xml",
+        "ref/dotnet/it/System.Globalization.xml",
+        "ref/dotnet/ja/System.Globalization.xml",
+        "ref/dotnet/ko/System.Globalization.xml",
+        "ref/dotnet/ru/System.Globalization.xml",
+        "ref/dotnet/System.Globalization.dll",
+        "ref/dotnet/System.Globalization.xml",
+        "ref/dotnet/zh-hans/System.Globalization.xml",
+        "ref/dotnet/zh-hant/System.Globalization.xml",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/de/System.Globalization.xml",
+        "ref/netcore50/es/System.Globalization.xml",
+        "ref/netcore50/fr/System.Globalization.xml",
+        "ref/netcore50/it/System.Globalization.xml",
+        "ref/netcore50/ja/System.Globalization.xml",
+        "ref/netcore50/ko/System.Globalization.xml",
+        "ref/netcore50/ru/System.Globalization.xml",
+        "ref/netcore50/System.Globalization.dll",
+        "ref/netcore50/System.Globalization.xml",
+        "ref/netcore50/zh-hans/System.Globalization.xml",
+        "ref/netcore50/zh-hant/System.Globalization.xml",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "System.Globalization.4.0.0.nupkg",
+        "System.Globalization.4.0.0.nupkg.sha512",
+        "System.Globalization.nuspec"
+      ]
+    },
+    "System.Linq/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "r6Hlc+ytE6m/9UBr+nNRRdoJEWjoeQiT3L3lXYFDHoXk3VYsRBCDNXrawcexw7KPLaH0zamQLiAb6avhZ50cGg==",
+      "files": [
+        "lib/dotnet/System.Linq.dll",
+        "lib/net45/_._",
+        "lib/netcore50/System.Linq.dll",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "ref/dotnet/de/System.Linq.xml",
+        "ref/dotnet/es/System.Linq.xml",
+        "ref/dotnet/fr/System.Linq.xml",
+        "ref/dotnet/it/System.Linq.xml",
+        "ref/dotnet/ja/System.Linq.xml",
+        "ref/dotnet/ko/System.Linq.xml",
+        "ref/dotnet/ru/System.Linq.xml",
+        "ref/dotnet/System.Linq.dll",
+        "ref/dotnet/System.Linq.xml",
+        "ref/dotnet/zh-hans/System.Linq.xml",
+        "ref/dotnet/zh-hant/System.Linq.xml",
+        "ref/net45/_._",
+        "ref/netcore50/System.Linq.dll",
+        "ref/netcore50/System.Linq.xml",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "System.Linq.4.0.0.nupkg",
+        "System.Linq.4.0.0.nupkg.sha512",
+        "System.Linq.nuspec"
+      ]
+    },
+    "System.Resources.ResourceManager/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "qmqeZ4BJgjfU+G2JbrZt4Dk1LsMxO4t+f/9HarNY6w8pBgweO6jT+cknUH7c3qIrGvyUqraBhU45Eo6UtA0fAw==",
+      "files": [
+        "lib/DNXCore50/System.Resources.ResourceManager.dll",
+        "lib/net45/_._",
+        "lib/netcore50/System.Resources.ResourceManager.dll",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "ref/dotnet/de/System.Resources.ResourceManager.xml",
+        "ref/dotnet/es/System.Resources.ResourceManager.xml",
+        "ref/dotnet/fr/System.Resources.ResourceManager.xml",
+        "ref/dotnet/it/System.Resources.ResourceManager.xml",
+        "ref/dotnet/ja/System.Resources.ResourceManager.xml",
+        "ref/dotnet/ko/System.Resources.ResourceManager.xml",
+        "ref/dotnet/ru/System.Resources.ResourceManager.xml",
+        "ref/dotnet/System.Resources.ResourceManager.dll",
+        "ref/dotnet/System.Resources.ResourceManager.xml",
+        "ref/dotnet/zh-hans/System.Resources.ResourceManager.xml",
+        "ref/dotnet/zh-hant/System.Resources.ResourceManager.xml",
+        "ref/net45/_._",
+        "ref/netcore50/System.Resources.ResourceManager.dll",
+        "ref/netcore50/System.Resources.ResourceManager.xml",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Resources.ResourceManager.dll",
+        "System.Resources.ResourceManager.4.0.0.nupkg",
+        "System.Resources.ResourceManager.4.0.0.nupkg.sha512",
+        "System.Resources.ResourceManager.nuspec"
+      ]
+    },
+    "System.Runtime/4.0.0": {
+      "type": "package",
+      "sha512": "Uq9epame8hEqJlj4KaWb67dDJvj4IM37jRFGVeFbugRdPz48bR0voyBhrbf3iSa2tAmlkg4lsa6BUOL9iwlMew==",
+      "files": [
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "License.rtf",
+        "ref/dotnet/de/System.Runtime.xml",
+        "ref/dotnet/es/System.Runtime.xml",
+        "ref/dotnet/fr/System.Runtime.xml",
+        "ref/dotnet/it/System.Runtime.xml",
+        "ref/dotnet/ja/System.Runtime.xml",
+        "ref/dotnet/ko/System.Runtime.xml",
+        "ref/dotnet/ru/System.Runtime.xml",
+        "ref/dotnet/System.Runtime.dll",
+        "ref/dotnet/System.Runtime.xml",
+        "ref/dotnet/zh-hans/System.Runtime.xml",
+        "ref/dotnet/zh-hant/System.Runtime.xml",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/de/System.Runtime.xml",
+        "ref/netcore50/es/System.Runtime.xml",
+        "ref/netcore50/fr/System.Runtime.xml",
+        "ref/netcore50/it/System.Runtime.xml",
+        "ref/netcore50/ja/System.Runtime.xml",
+        "ref/netcore50/ko/System.Runtime.xml",
+        "ref/netcore50/ru/System.Runtime.xml",
+        "ref/netcore50/System.Runtime.dll",
+        "ref/netcore50/System.Runtime.xml",
+        "ref/netcore50/zh-hans/System.Runtime.xml",
+        "ref/netcore50/zh-hant/System.Runtime.xml",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "System.Runtime.4.0.0.nupkg",
+        "System.Runtime.4.0.0.nupkg.sha512",
+        "System.Runtime.nuspec"
+      ]
+    },
+    "System.Runtime.Extensions/4.0.0": {
+      "type": "package",
+      "sha512": "zPzwoJcA7qar/b5Ihhzfcdr3vBOR8FIg7u//Qc5mqyAriasXuMFVraBZ5vOQq5asfun9ryNEL8Z2BOlUK5QRqA==",
+      "files": [
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "License.rtf",
+        "ref/dotnet/de/System.Runtime.Extensions.xml",
+        "ref/dotnet/es/System.Runtime.Extensions.xml",
+        "ref/dotnet/fr/System.Runtime.Extensions.xml",
+        "ref/dotnet/it/System.Runtime.Extensions.xml",
+        "ref/dotnet/ja/System.Runtime.Extensions.xml",
+        "ref/dotnet/ko/System.Runtime.Extensions.xml",
+        "ref/dotnet/ru/System.Runtime.Extensions.xml",
+        "ref/dotnet/System.Runtime.Extensions.dll",
+        "ref/dotnet/System.Runtime.Extensions.xml",
+        "ref/dotnet/zh-hans/System.Runtime.Extensions.xml",
+        "ref/dotnet/zh-hant/System.Runtime.Extensions.xml",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/de/System.Runtime.Extensions.xml",
+        "ref/netcore50/es/System.Runtime.Extensions.xml",
+        "ref/netcore50/fr/System.Runtime.Extensions.xml",
+        "ref/netcore50/it/System.Runtime.Extensions.xml",
+        "ref/netcore50/ja/System.Runtime.Extensions.xml",
+        "ref/netcore50/ko/System.Runtime.Extensions.xml",
+        "ref/netcore50/ru/System.Runtime.Extensions.xml",
+        "ref/netcore50/System.Runtime.Extensions.dll",
+        "ref/netcore50/System.Runtime.Extensions.xml",
+        "ref/netcore50/zh-hans/System.Runtime.Extensions.xml",
+        "ref/netcore50/zh-hant/System.Runtime.Extensions.xml",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "System.Runtime.Extensions.4.0.0.nupkg",
+        "System.Runtime.Extensions.4.0.0.nupkg.sha512",
+        "System.Runtime.Extensions.nuspec"
+      ]
+    },
+    "System.Threading/4.0.0": {
+      "type": "package",
+      "sha512": "H6O/9gUrjPDNYanh/7OFGAZHjVXvEuITD0RcnjfvIV04HOGrOPqUBU0kmz9RIX/7YGgCQn1o1S2DX6Cuv8kVGQ==",
+      "files": [
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "License.rtf",
+        "ref/dotnet/de/System.Threading.xml",
+        "ref/dotnet/es/System.Threading.xml",
+        "ref/dotnet/fr/System.Threading.xml",
+        "ref/dotnet/it/System.Threading.xml",
+        "ref/dotnet/ja/System.Threading.xml",
+        "ref/dotnet/ko/System.Threading.xml",
+        "ref/dotnet/ru/System.Threading.xml",
+        "ref/dotnet/System.Threading.dll",
+        "ref/dotnet/System.Threading.xml",
+        "ref/dotnet/zh-hans/System.Threading.xml",
+        "ref/dotnet/zh-hant/System.Threading.xml",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/de/System.Threading.xml",
+        "ref/netcore50/es/System.Threading.xml",
+        "ref/netcore50/fr/System.Threading.xml",
+        "ref/netcore50/it/System.Threading.xml",
+        "ref/netcore50/ja/System.Threading.xml",
+        "ref/netcore50/ko/System.Threading.xml",
+        "ref/netcore50/ru/System.Threading.xml",
+        "ref/netcore50/System.Threading.dll",
+        "ref/netcore50/System.Threading.xml",
+        "ref/netcore50/zh-hans/System.Threading.xml",
+        "ref/netcore50/zh-hant/System.Threading.xml",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "System.Threading.4.0.0.nupkg",
+        "System.Threading.4.0.0.nupkg.sha512",
+        "System.Threading.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Sharper.C.Maybe ",
+      "Sharper.C.Testing >= 0.1.0-*"
+    ],
+    "DNX,Version=v4.5.1": []
+  }
+}

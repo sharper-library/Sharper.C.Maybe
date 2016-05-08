@@ -1,0 +1,20 @@
+﻿{ "version": "0.1.0-*"
+, "description": "Tests for Sharper.C.Maybe"
+, "authors": ["Jeremy Hughes <jeremy@tflite.com>"]
+, "projectUrl": "https://github.com/sharper-library/Sharper.C.Maybe"
+, "licenseUrl": "https://raw.githubusercontent.com/sharper-library/Sharper.C.Maybe/master/LICENSE.txt"
+
+, "commands":
+  { "test": "run"
+  }
+
+, "dependencies":
+  { "Sharper.C.Maybe.Testing": ""
+  }
+
+, "frameworks":
+  { "dnx451":
+    {
+    }
+  }
+}
