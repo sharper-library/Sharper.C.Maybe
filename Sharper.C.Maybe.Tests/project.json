@@ -5,11 +5,15 @@
 , "licenseUrl": "https://raw.githubusercontent.com/sharper-library/Sharper.C.Maybe/master/LICENSE.txt"
 
 , "commands":
-  { "test": "run"
+  { "test": "xunit.runner.dnx"
   }
 
 , "dependencies":
   { "Sharper.C.Maybe.Testing": ""
+  , "Fuchu.Xunit": "0.2.0"
+  , "xunit.runner.dnx": "2.1.0-rc1-build204"
+  , "FSharpx.Extras": "1.10.3"
+  , "FSharp.Control.AsyncSeq": "2.0.8"
   }
 
 , "frameworks":
