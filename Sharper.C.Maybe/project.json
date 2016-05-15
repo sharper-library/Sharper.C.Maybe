@@ -1,30 +1,31 @@
-﻿{ "version": "0.1.0-*"
-, "description": "The Maybe type"
-, "authors": ["Jeremy Hughes <jeremy@tflite.com>"]
-, "projectUrl": "https://github.com/sharper-library/Sharper.C.Maybe"
-, "licenseUrl": "https://raw.githubusercontent.com/sharper-library/Sharper.C.Maybe/master/LICENSE.txt"
-
-, "dependencies":
-  { "Sharper.C.Eq": "0.1.0-*"
-  , "Sharper.C.Product": "0.1.0-*"
-  }
-
-, "frameworks":
-  { "dotnet":
-    { "dependencies":
-      { "System.Runtime": "4.0.20"
-      , "System.Linq": "4.0.0"
-      }
+{
+    "version": "0.1.0-*",
+    "description": "The Maybe type",
+    "authors": [
+        "Jeremy Hughes <jeremy@tflite.com>"
+    ],
+    "projectUrl": "https://github.com/sharper-library/Sharper.C.Maybe",
+    "licenseUrl": "https://raw.githubusercontent.com/sharper-library/Sharper.C.Maybe/master/LICENSE.txt",
+    "dependencies": {
+        "Sharper.C.Eq": "0.1.0-*",
+        "Sharper.C.Product": "0.1.0-*"
+    },
+    "frameworks": {
+        "dotnet": {
+            "dependencies": {
+                "System.Runtime": "4.0.20",
+                "System.Linq": "4.0.0"
+            }
+        },
+        "dnx451": {
+            "frameworkAssemblies": {
+                "System.Linq": "4.0.0.0"
+            }
+        },
+        "net451": {
+            "frameworkAssemblies": {
+                "System.Linq": "4.0.0.0"
+            }
+        }
     }
-  , "dnx451":
-    { "frameworkAssemblies":
-      { "System.Linq": "4.0.0.0"
-      }
-    }
-  , "net451":
-    { "frameworkAssemblies":
-      { "System.Linq": "4.0.0.0"
-      }
-    }
-  }
 }

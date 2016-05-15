@@ -77,7 +77,7 @@ namespace Sharper.C.Data
 
         public bool Equals(Maybe<A> x)
         =>  (IsNothing && x.IsNothing)
-            || (IsJust && IsJust && value.Equals(x.value));
+            || (IsJust && x.IsJust && value.Equals(x.value));
 
         public override bool Equals(object obj)
         =>  obj is Maybe<A> && Equals((Maybe<A>)obj);
@@ -144,6 +144,4 @@ namespace Sharper.C.Data
             }
         }
     }
-}
-
 }
