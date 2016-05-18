@@ -3,8 +3,8 @@ using Sharper.C.Testing;
 using Sharper.C.Testing.Laws;
 using Sharper.C.Testing.Xunit;
 using Sharper.C.Instances;
-using static Sharper.C.Testing.SystemArbitraryModule;
-using static Sharper.C.Testing.Arbitraries.MaybeArbitraryModule;
+using static Sharper.C.Testing.Arbitraries.SystemArbitrariesModule;
+using static Sharper.C.Testing.Arbitraries.MaybeArbitrariesModule;
 
 namespace Sharper.C.Tests.Data
 {

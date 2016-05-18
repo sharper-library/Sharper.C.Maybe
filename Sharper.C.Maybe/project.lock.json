@@ -3,7 +3,7 @@
   "version": 2,
   "targets": {
     ".NETPlatform,Version=v5.0": {
-      "Sharper.C.Eq/0.1.0-build-00006": {
+      "Sharper.C.Eq/0.1.0-master-00003": {
         "type": "package",
         "dependencies": {
           "System.Collections": "4.0.10",
@@ -149,7 +149,7 @@
       }
     },
     "DNX,Version=v4.5.1": {
-      "Sharper.C.Eq/0.1.0-build-00006": {
+      "Sharper.C.Eq/0.1.0-master-00003": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -181,7 +181,7 @@
       }
     },
     ".NETFramework,Version=v4.5.1": {
-      "Sharper.C.Eq/0.1.0-build-00006": {
+      "Sharper.C.Eq/0.1.0-master-00003": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -213,7 +213,7 @@
       }
     },
     ".NETPlatform,Version=v5.0/win7-x86": {
-      "Sharper.C.Eq/0.1.0-build-00006": {
+      "Sharper.C.Eq/0.1.0-master-00003": {
         "type": "package",
         "dependencies": {
           "System.Collections": "4.0.10",
@@ -359,7 +359,7 @@
       }
     },
     ".NETPlatform,Version=v5.0/win7-x64": {
-      "Sharper.C.Eq/0.1.0-build-00006": {
+      "Sharper.C.Eq/0.1.0-master-00003": {
         "type": "package",
         "dependencies": {
           "System.Collections": "4.0.10",
@@ -505,7 +505,7 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x86": {
-      "Sharper.C.Eq/0.1.0-build-00006": {
+      "Sharper.C.Eq/0.1.0-master-00003": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -537,7 +537,7 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x64": {
-      "Sharper.C.Eq/0.1.0-build-00006": {
+      "Sharper.C.Eq/0.1.0-master-00003": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -569,7 +569,7 @@
       }
     },
     ".NETFramework,Version=v4.5.1/win7-x86": {
-      "Sharper.C.Eq/0.1.0-build-00006": {
+      "Sharper.C.Eq/0.1.0-master-00003": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -601,7 +601,7 @@
       }
     },
     ".NETFramework,Version=v4.5.1/win7-x64": {
-      "Sharper.C.Eq/0.1.0-build-00006": {
+      "Sharper.C.Eq/0.1.0-master-00003": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -634,9 +634,9 @@
     }
   },
   "libraries": {
-    "Sharper.C.Eq/0.1.0-build-00006": {
+    "Sharper.C.Eq/0.1.0-master-00003": {
       "type": "package",
-      "sha512": "7iaCI4EB+lCc5INiIb9vlCQIVyGNYjGoZ9hNbMNh0+sM/HtuetFX8pgHKO5bMadvxANoiqU5eW8f9R1DjQMk+A==",
+      "sha512": "Ja3KREUpubhzQuo7sslLif3YNmZF325GNHVtmpldnqxAImKn0iUZoF1mfvYjZw+nXMX33xfZ/KuXM39S5Js+Hw==",
       "files": [
         "lib/dnx451/Sharper.C.Eq.dll",
         "lib/dnx451/Sharper.C.Eq.xml",
@@ -644,8 +644,8 @@
         "lib/dotnet/Sharper.C.Eq.xml",
         "lib/net451/Sharper.C.Eq.dll",
         "lib/net451/Sharper.C.Eq.xml",
-        "Sharper.C.Eq.0.1.0-build-00006.nupkg",
-        "Sharper.C.Eq.0.1.0-build-00006.nupkg.sha512",
+        "Sharper.C.Eq.0.1.0-master-00003.nupkg",
+        "Sharper.C.Eq.0.1.0-master-00003.nupkg.sha512",
         "Sharper.C.Eq.nuspec"
       ]
     },

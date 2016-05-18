@@ -4,7 +4,7 @@ using Sharper.C.Data;
 
 namespace Sharper.C.Testing.Arbitraries
 {
-    public static class MaybeArbitraryModule
+    public static class MaybeArbitrariesModule
     {
         public static Arbitrary<Maybe<A>> AnyMaybe<A>(Arbitrary<A> arbA)
         =>  Arb.From

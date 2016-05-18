@@ -24,7 +24,7 @@
           "lib/net40/FSharp.Core.dll": {}
         }
       },
-      "Sharper.C.Eq/0.1.0-build-00006": {
+      "Sharper.C.Eq/0.1.0-master-00003": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -65,12 +65,12 @@
           "lib/dnx451/Sharper.C.Product.dll": {}
         }
       },
-      "Sharper.C.Testing/0.1.0-build-00015": {
+      "Sharper.C.Testing/0.1.0-master-00007": {
         "type": "package",
         "dependencies": {
           "FsCheck": "2.4.0",
           "FSharp.Core": "4.0.0.1",
-          "Sharper.C.Eq": "0.1.0-build-00006",
+          "Sharper.C.Eq": "0.1.0-master-00003",
           "System.Collections.Immutable": "1.1.38-beta-23516"
         },
         "frameworkAssemblies": [
@@ -202,7 +202,7 @@
           "lib/net40/FSharp.Core.dll": {}
         }
       },
-      "Sharper.C.Eq/0.1.0-build-00006": {
+      "Sharper.C.Eq/0.1.0-master-00003": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -243,12 +243,12 @@
           "lib/dnx451/Sharper.C.Product.dll": {}
         }
       },
-      "Sharper.C.Testing/0.1.0-build-00015": {
+      "Sharper.C.Testing/0.1.0-master-00007": {
         "type": "package",
         "dependencies": {
           "FsCheck": "2.4.0",
           "FSharp.Core": "4.0.0.1",
-          "Sharper.C.Eq": "0.1.0-build-00006",
+          "Sharper.C.Eq": "0.1.0-master-00003",
           "System.Collections.Immutable": "1.1.38-beta-23516"
         },
         "frameworkAssemblies": [
@@ -380,7 +380,7 @@
           "lib/net40/FSharp.Core.dll": {}
         }
       },
-      "Sharper.C.Eq/0.1.0-build-00006": {
+      "Sharper.C.Eq/0.1.0-master-00003": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -421,12 +421,12 @@
           "lib/dnx451/Sharper.C.Product.dll": {}
         }
       },
-      "Sharper.C.Testing/0.1.0-build-00015": {
+      "Sharper.C.Testing/0.1.0-master-00007": {
         "type": "package",
         "dependencies": {
           "FsCheck": "2.4.0",
           "FSharp.Core": "4.0.0.1",
-          "Sharper.C.Eq": "0.1.0-build-00006",
+          "Sharper.C.Eq": "0.1.0-master-00003",
           "System.Collections.Immutable": "1.1.38-beta-23516"
         },
         "frameworkAssemblies": [
@@ -600,9 +600,9 @@
         "lib/portable-net45+sl5+netcore45/FSharp.Core.xml"
       ]
     },
-    "Sharper.C.Eq/0.1.0-build-00006": {
+    "Sharper.C.Eq/0.1.0-master-00003": {
       "type": "package",
-      "sha512": "7iaCI4EB+lCc5INiIb9vlCQIVyGNYjGoZ9hNbMNh0+sM/HtuetFX8pgHKO5bMadvxANoiqU5eW8f9R1DjQMk+A==",
+      "sha512": "Ja3KREUpubhzQuo7sslLif3YNmZF325GNHVtmpldnqxAImKn0iUZoF1mfvYjZw+nXMX33xfZ/KuXM39S5Js+Hw==",
       "files": [
         "lib/dnx451/Sharper.C.Eq.dll",
         "lib/dnx451/Sharper.C.Eq.xml",
@@ -610,8 +610,8 @@
         "lib/dotnet/Sharper.C.Eq.xml",
         "lib/net451/Sharper.C.Eq.dll",
         "lib/net451/Sharper.C.Eq.xml",
-        "Sharper.C.Eq.0.1.0-build-00006.nupkg",
-        "Sharper.C.Eq.0.1.0-build-00006.nupkg.sha512",
+        "Sharper.C.Eq.0.1.0-master-00003.nupkg",
+        "Sharper.C.Eq.0.1.0-master-00003.nupkg.sha512",
         "Sharper.C.Eq.nuspec"
       ]
     },
@@ -630,14 +630,14 @@
         "Sharper.C.Product.nuspec"
       ]
     },
-    "Sharper.C.Testing/0.1.0-build-00015": {
+    "Sharper.C.Testing/0.1.0-master-00007": {
       "type": "package",
-      "sha512": "YFxfOGqWz6BP2pwvmoSVtCbs+Gzwmtwfmg+b3vyJXo8kjGAYf9CgXswLs86shKA1k91tn3VIusqWtAN62rXQPQ==",
+      "sha512": "XXYvw0tI1b4FLWELsi1GlbMtW5WkY1PPyMU9krz6n3EuCmITSX8j71ZxwQPhDSXyOseNfKzWBO7kEK3ye5ey9w==",
       "files": [
         "lib/dnx451/Sharper.C.Testing.dll",
         "lib/dnx451/Sharper.C.Testing.xml",
-        "Sharper.C.Testing.0.1.0-build-00015.nupkg",
-        "Sharper.C.Testing.0.1.0-build-00015.nupkg.sha512",
+        "Sharper.C.Testing.0.1.0-master-00007.nupkg",
+        "Sharper.C.Testing.0.1.0-master-00007.nupkg.sha512",
         "Sharper.C.Testing.nuspec"
       ]
     },
