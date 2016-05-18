@@ -173,8 +173,7 @@
         "type": "project",
         "framework": "DNX,Version=v4.5.1",
         "dependencies": {
-          "Sharper.C.Eq": "0.1.0",
-          "Sharper.C.Product": "0.1.0"
+          "Sharper.C.Eq": "0.1.0-master"
         },
         "frameworkAssemblies": [
           "System.Linq"
@@ -185,22 +184,7 @@
         "framework": "DNX,Version=v4.5.1",
         "dependencies": {
           "Sharper.C.Maybe": null,
-          "Sharper.C.Testing": "0.1.0"
-        }
-      },
-      "Sharper.C.Product/0.1.0-build-00002": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/Sharper.C.Product.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Sharper.C.Product.dll": {}
+          "Sharper.C.Testing": "0.1.0-master"
         }
       },
       "Sharper.C.Testing/0.1.0-master-00007": {
@@ -621,8 +605,7 @@
         "type": "project",
         "framework": "DNX,Version=v4.5.1",
         "dependencies": {
-          "Sharper.C.Eq": "0.1.0",
-          "Sharper.C.Product": "0.1.0"
+          "Sharper.C.Eq": "0.1.0-master"
         },
         "frameworkAssemblies": [
           "System.Linq"
@@ -633,22 +616,7 @@
         "framework": "DNX,Version=v4.5.1",
         "dependencies": {
           "Sharper.C.Maybe": null,
-          "Sharper.C.Testing": "0.1.0"
-        }
-      },
-      "Sharper.C.Product/0.1.0-build-00002": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/Sharper.C.Product.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Sharper.C.Product.dll": {}
+          "Sharper.C.Testing": "0.1.0-master"
         }
       },
       "Sharper.C.Testing/0.1.0-master-00007": {
@@ -1069,8 +1037,7 @@
         "type": "project",
         "framework": "DNX,Version=v4.5.1",
         "dependencies": {
-          "Sharper.C.Eq": "0.1.0",
-          "Sharper.C.Product": "0.1.0"
+          "Sharper.C.Eq": "0.1.0-master"
         },
         "frameworkAssemblies": [
           "System.Linq"
@@ -1081,22 +1048,7 @@
         "framework": "DNX,Version=v4.5.1",
         "dependencies": {
           "Sharper.C.Maybe": null,
-          "Sharper.C.Testing": "0.1.0"
-        }
-      },
-      "Sharper.C.Product/0.1.0-build-00002": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/Sharper.C.Product.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Sharper.C.Product.dll": {}
+          "Sharper.C.Testing": "0.1.0-master"
         }
       },
       "Sharper.C.Testing/0.1.0-master-00007": {
@@ -1554,21 +1506,6 @@
         "Sharper.C.Eq.0.1.0-master-00003.nupkg",
         "Sharper.C.Eq.0.1.0-master-00003.nupkg.sha512",
         "Sharper.C.Eq.nuspec"
-      ]
-    },
-    "Sharper.C.Product/0.1.0-build-00002": {
-      "type": "package",
-      "sha512": "+uaDD28PgVUU5QrulhMcxMUX98RbcJeKFB59xEU/1px3o3kiJ5VOIMg0VKfRWAuPuDYYjpjJnOMAq4eF56w0Iw==",
-      "files": [
-        "lib/dnx451/Sharper.C.Product.dll",
-        "lib/dnx451/Sharper.C.Product.xml",
-        "lib/dotnet/Sharper.C.Product.dll",
-        "lib/dotnet/Sharper.C.Product.xml",
-        "lib/net451/Sharper.C.Product.dll",
-        "lib/net451/Sharper.C.Product.xml",
-        "Sharper.C.Product.0.1.0-build-00002.nupkg",
-        "Sharper.C.Product.0.1.0-build-00002.nupkg.sha512",
-        "Sharper.C.Product.nuspec"
       ]
     },
     "Sharper.C.Testing/0.1.0-master-00007": {
@@ -2129,7 +2066,7 @@
   "projectFileDependencyGroups": {
     "": [
       "Sharper.C.Maybe.Testing ",
-      "Sharper.C.Testing.Xunit >= 0.1.0-*",
+      "Sharper.C.Testing.Xunit >= 0.1.0-master-*",
       "xunit.runner.dnx >= 2.1.0-rc1-build204"
     ],
     "DNX,Version=v4.5.1": []

@@ -41,9 +41,6 @@ namespace Sharper.C.Data
         public Maybe<C> ZipWith<B, C>(Maybe<B> mb, Func<A, B, C> f)
         =>  FlatMap(a => mb.Map(b => f(a, b)));
 
-        public Maybe<And<A, B>> Zip<B>(Maybe<B> mb)
-        =>  ZipWith(mb, And.Mk);
-
         public IEnumerable<Maybe<B>> Traverse<B>(Func<A, IEnumerable<B>> f)
         =>  IsJust
             ? f(value).Select(Maybe.Just)

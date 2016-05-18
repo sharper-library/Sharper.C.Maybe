@@ -1,20 +1,22 @@
-{
-    "version": "0.1.0-*",
-    "description": "Tests for Sharper.C.Maybe",
-    "authors": [
-        "Jeremy Hughes <jeremy@tflite.com>"
-    ],
-    "projectUrl": "https://github.com/sharper-library/Sharper.C.Maybe",
-    "licenseUrl": "https://raw.githubusercontent.com/sharper-library/Sharper.C.Maybe/master/LICENSE.txt",
-    "commands": {
-        "test": "xunit.runner.dnx"
-    },
-    "dependencies": {
-        "Sharper.C.Maybe.Testing": "",
-        "Sharper.C.Testing.Xunit": "0.1.0-*",
-        "xunit.runner.dnx": "2.1.0-rc1-build204"
-    },
-    "frameworks": {
-        "dnx451": {}
+{ "version": "0.1.0-*"
+, "description": "Tests for Sharper.C.Maybe"
+, "authors": ["Jeremy Hughes <jeremy@tflite.com>"]
+, "projectUrl": "https://github.com/sharper-library/Sharper.C.Maybe"
+, "licenseUrl": "https://raw.githubusercontent.com/sharper-library/Sharper.C.Maybe/master/LICENSE.txt"
+
+, "commands":
+  { "test": "xunit.runner.dnx"
+  }
+
+, "dependencies":
+  { "Sharper.C.Maybe.Testing": ""
+  , "Sharper.C.Testing.Xunit": "0.1.0-master-*"
+  , "xunit.runner.dnx": "2.1.0-rc1-build204"
+  }
+
+, "frameworks":
+  { "dnx451":
+    {
     }
+  }
 }
