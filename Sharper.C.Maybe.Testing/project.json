@@ -6,7 +6,7 @@
 
 , "dependencies":
   { "Sharper.C.Maybe": ""
-  , "Sharper.C.Testing": "0.1.0-master-*"
+  , "Sharper.C.Testing": "1.0.1-master-*"
   }
 
 , "frameworks":

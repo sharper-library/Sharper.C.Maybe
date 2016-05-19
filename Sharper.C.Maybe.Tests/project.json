@@ -10,7 +10,7 @@
 
 , "dependencies":
   { "Sharper.C.Maybe.Testing": ""
-  , "Sharper.C.Testing.Xunit": "0.1.0-master-*"
+  , "Sharper.C.Testing.Xunit": "1.0.1-master-*"
   , "xunit.runner.dnx": "2.1.0-rc1-build204"
   }
 
