@@ -103,6 +103,9 @@ namespace Sharper.C.Data
         public static Maybe<A> Pure<A>(A a)
         =>  Just(a);
 
+        public static Maybe<A> When<A>(bool when, Func<A> value)
+        =>  when ? Just(value()) : Nothing<A>();
+
         public static Maybe<B> Ap<A, B>(this Maybe<Func<A, B>> mf, Maybe<A> ma)
         =>  mf.FlatMap(ma.Map);
 
