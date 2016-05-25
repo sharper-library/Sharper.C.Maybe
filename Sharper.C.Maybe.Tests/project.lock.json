@@ -3694,7 +3694,7 @@
     },
     "projectFileDependencyGroups": {
         "": [
-            "Sharper.C.Maybe.Testing >= 1.0.0-*",
+            "Sharper.C.Maybe.Testing >= 1.0.0",
             "Sharper.C.Testing.Xunit >= 1.3.0",
             "dotnet-test-xunit >= 1.0.0-rc3-*"
         ],
