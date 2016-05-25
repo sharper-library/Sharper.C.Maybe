@@ -139,7 +139,7 @@ namespace Sharper.C.Data
             try
             {   return Just(xs.First());
             }
-            catch (InvalidOperationException _)
+            catch (InvalidOperationException)
             {   return Nothing<A>();
             }
         }
