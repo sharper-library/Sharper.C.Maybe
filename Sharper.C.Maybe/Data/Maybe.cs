@@ -69,8 +69,14 @@ namespace Sharper.C.Data
         public Maybe<A> Or(Func<Maybe<A>> ma)
         =>  IsJust ? this : ma();
 
+        public Maybe<A> Or(Maybe<A> ma)
+        =>  IsJust ? this : ma;
+
         public A ValueOr(Func<A> a)
         =>  IsJust ? value : a();
+
+        public A ValueOr(A a)
+        =>  IsJust ? value : a;
 
         public bool Equals(Maybe<A> x)
         =>  (IsNothing && x.IsNothing)
@@ -105,6 +111,9 @@ namespace Sharper.C.Data
 
         public static Maybe<A> When<A>(bool when, Func<A> value)
         =>  when ? Just(value()) : Nothing<A>();
+
+        public static Maybe<A> When<A>(bool when, A value)
+        =>  when ? Just(value) : Nothing<A>();
 
         public static Maybe<B> Ap<A, B>(this Maybe<Func<A, B>> mf, Maybe<A> ma)
         =>  mf.FlatMap(ma.Map);
