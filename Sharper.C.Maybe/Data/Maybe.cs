@@ -78,6 +78,12 @@ namespace Sharper.C.Data
         public A ValueOr(A a)
         =>  IsJust ? value : a;
 
+        public void WhenJust(Action<A> f)
+        {   if (IsJust)
+            {   f(value);
+            }
+        }
+
         public bool Equals(Maybe<A> x)
         =>  (IsNothing && x.IsNothing)
             || (IsJust && x.IsJust && value.Equals(x.value));
