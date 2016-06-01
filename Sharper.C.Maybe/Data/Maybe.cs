@@ -109,6 +109,14 @@ namespace Sharper.C.Data
         public static Maybe<A> Pure<A>(A a)
         =>  Just(a);
 
+        public static Maybe<A> FromNullable<A>(A? a)
+          where A : struct
+        =>  When(a.HasValue, a.Value);
+
+        public static Maybe<A> FromReference<A>(A a)
+          where A : class
+        =>  When(a != null, a);
+
         public static Maybe<A> When<A>(bool when, Func<A> value)
         =>  when ? Just(value()) : Nothing<A>();
 
