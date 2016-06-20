@@ -120,7 +120,7 @@ namespace Sharper.C.Data
 
         public static Maybe<A> FromNullable<A>(A? a)
           where A : struct
-        =>  When(a.HasValue, a.Value);
+        =>  When(a.HasValue, () => a.Value);
 
         public static Maybe<A> FromReference<A>(A a)
           where A : class
