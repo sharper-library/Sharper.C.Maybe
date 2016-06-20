@@ -1,5 +1,5 @@
 {
-    "version": "1.2",
+    "version": "1.3-*",
     "description": "The Maybe type",
     "authors": [
         "Jeremy Hughes <jeremy@tflite.com>"
