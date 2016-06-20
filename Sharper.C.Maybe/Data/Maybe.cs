@@ -102,6 +102,9 @@ namespace Sharper.C.Data
 
         public static bool operator!=(Maybe<A> x, Maybe<A> y)
         =>  !x.Equals(y);
+
+        public static Maybe<A> operator|(Maybe<A> x, Maybe<A> y)
+        =>  x.Or(y);
     }
 
     public static class Maybe
