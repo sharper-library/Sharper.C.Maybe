@@ -133,6 +133,9 @@ namespace Sharper.C.Data
           where A : class
         =>  When(a != null, a);
 
+        public static Maybe<A> WhenType<A>(object x)
+        =>  When(x is A, (A) x);
+
         public static A? ToNullable<A>(this Maybe<A> ma)
           where A : struct
         =>  ma.Cata(() => new A?(), a => a);
