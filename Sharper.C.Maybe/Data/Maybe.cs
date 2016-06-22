@@ -182,7 +182,7 @@ namespace Sharper.C.Data
             }
         }
 
-        public static Maybe<A> Catch<A>
+        public static Maybe<A> Recover<A>
           ( Func<A> run
           , Func<Exception, bool> ex = null
           )
