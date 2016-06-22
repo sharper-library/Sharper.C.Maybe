@@ -78,9 +78,10 @@ namespace Sharper.C.Data
         public A ValueOr(A a)
         =>  IsJust ? value : a;
 
-        public void WhenJust(Action<A> f)
-        {   if (IsJust)
-            {   f(value);
+        public A ValueOrThrow
+        {   get
+            {   if (IsJust) return value;
+                throw new NullReferenceException("Maybe.Nothing");
             }
         }
 
@@ -118,6 +119,12 @@ namespace Sharper.C.Data
         public static Maybe<A> Pure<A>(A a)
         =>  Just(a);
 
+        public static Maybe<A> When<A>(bool when, Func<A> value)
+        =>  when ? Just(value()) : Nothing<A>();
+
+        public static Maybe<A> When<A>(bool when, A value)
+        =>  when ? Just(value) : Nothing<A>();
+
         public static Maybe<A> FromNullable<A>(A? a)
           where A : struct
         =>  When(a.HasValue, () => a.Value);
@@ -126,11 +133,13 @@ namespace Sharper.C.Data
           where A : class
         =>  When(a != null, a);
 
-        public static Maybe<A> When<A>(bool when, Func<A> value)
-        =>  when ? Just(value()) : Nothing<A>();
+        public static A? ToNullable<A>(this Maybe<A> ma)
+          where A : struct
+        =>  ma.Cata(() => new A?(), a => a);
 
-        public static Maybe<A> When<A>(bool when, A value)
-        =>  when ? Just(value) : Nothing<A>();
+        public static A ToUnsafeReference<A>(this Maybe<A> ma)
+          where A : class
+        =>  ma.ValueOr((A)null);
 
         public static Maybe<B> Ap<A, B>(this Maybe<Func<A, B>> mf, Maybe<A> ma)
         =>  mf.FlatMap(ma.Map);
@@ -167,6 +176,23 @@ namespace Sharper.C.Data
             }
             catch (InvalidOperationException)
             {   return Nothing<A>();
+            }
+        }
+
+        public static Maybe<A> Catch<A>
+          ( Func<A> run
+          , Func<Exception, bool> ex = null
+          )
+        {   try
+            {   return Just(run());
+            }
+            catch (Exception e)
+            {   if (ex == null || ex(e))
+                {   return Nothing<A>();
+                }
+                else
+                {   throw;
+                }
             }
         }
     }
