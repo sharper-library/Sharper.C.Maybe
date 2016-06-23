@@ -147,6 +147,9 @@ namespace Sharper.C.Data
         public static Maybe<B> Ap<A, B>(this Maybe<Func<A, B>> mf, Maybe<A> ma)
         =>  mf.FlatMap(ma.Map);
 
+        public static Maybe<A> Join<A>(this Maybe<Maybe<A>> m)
+        =>  m.ValueOr(Nothing<A>());
+
         public static IEnumerable<Maybe<A>> Sequence<A>
           ( this Maybe<IEnumerable<A>> msa
           )
