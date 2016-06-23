@@ -526,7 +526,7 @@
                 "type": "project",
                 "framework": ".NETStandard,Version=v1.3",
                 "dependencies": {
-                    "NETStandard.Library": "1.5.0-rc2",
+                    "NETStandard.Library": "1.5.0",
                     "Sharper.C.Eq": "1.0.0"
                 },
                 "compile": {
@@ -2967,7 +2967,7 @@
     },
     "projectFileDependencyGroups": {
         "": [
-            "Sharper.C.Maybe >= 2.0.0-*",
+            "Sharper.C.Maybe >= 2.0.0",
             "Sharper.C.Testing >= 1.*"
         ],
         ".NETFramework,Version=v4.6.1": []

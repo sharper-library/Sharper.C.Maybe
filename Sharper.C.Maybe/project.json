@@ -1,5 +1,5 @@
 {
-    "version": "2.0-*",
+    "version": "2.0",
     "description": "The Maybe type",
     "authors": [
         "Jeremy Hughes <jeremy@tflite.com>"
@@ -14,7 +14,7 @@
     "frameworks": {
         "netstandard1.3": {
             "dependencies": {
-                "NETStandard.Library": "1.5.0-rc2-*"
+                "NETStandard.Library": "1.5.0-*"
             }
         }
     }

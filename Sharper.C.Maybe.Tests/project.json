@@ -1,5 +1,5 @@
 {
-    "version": "2.0-*",
+    "version": "2.0",
     "description": "Tests for Sharper.C.Maybe",
     "authors": [
         "Jeremy Hughes <jeremy@tflite.com>"
@@ -10,7 +10,7 @@
     },
     "testRunner": "xunit",
     "dependencies": {
-        "Sharper.C.Maybe.Testing": "2.0-*",
+        "Sharper.C.Maybe.Testing": "2.0",
         "Sharper.C.Testing.Xunit": "1.*",
         "dotnet-test-xunit": "1.0.0-*"
     },
