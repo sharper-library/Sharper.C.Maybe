@@ -3318,7 +3318,7 @@
     },
     "projectFileDependencyGroups": {
         "": [
-            "Sharper.C.Eq >= 1.1.0"
+            "Sharper.C.Eq >= 1.*"
         ],
         ".NETStandard,Version=v1.3": [
             "NETStandard.Library >= 1.5.0-rc2-*"

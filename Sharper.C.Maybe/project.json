@@ -9,7 +9,7 @@
         "licenseUrl": "https://raw.githubusercontent.com/sharper-library/Sharper.C.Maybe/master/LICENSE.txt"
     },
     "dependencies": {
-        "Sharper.C.Eq": "1.1"
+        "Sharper.C.Eq": "1.*"
     },
     "frameworks": {
         "netstandard1.3": {

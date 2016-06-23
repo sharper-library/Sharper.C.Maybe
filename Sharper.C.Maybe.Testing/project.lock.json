@@ -522,12 +522,12 @@
                     "lib/net45/_._": {}
                 }
             },
-            "Sharper.C.Maybe/1.1.0": {
+            "Sharper.C.Maybe/2.0.0": {
                 "type": "project",
                 "framework": ".NETStandard,Version=v1.3",
                 "dependencies": {
                     "NETStandard.Library": "1.5.0-rc2",
-                    "Sharper.C.Eq": "1.1.0"
+                    "Sharper.C.Eq": "1.0.0"
                 },
                 "compile": {
                     "netstandard1.3/Sharper.C.Maybe.dll": {}
@@ -2959,7 +2959,7 @@
                 "ref/xamarinwatchos10/_._"
             ]
         },
-        "Sharper.C.Maybe/1.1.0": {
+        "Sharper.C.Maybe/2.0.0": {
             "type": "project",
             "path": "../Sharper.C.Maybe/project.json",
             "msbuildProject": "../Sharper.C.Maybe/Sharper.C.Maybe.xproj"
@@ -2967,8 +2967,8 @@
     },
     "projectFileDependencyGroups": {
         "": [
-            "Sharper.C.Maybe >= 1.1.0-*",
-            "Sharper.C.Testing >= 1.3.0"
+            "Sharper.C.Maybe >= 2.0.0-*",
+            "Sharper.C.Testing >= 1.*"
         ],
         ".NETFramework,Version=v4.6.1": []
     },
