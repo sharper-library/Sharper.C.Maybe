@@ -11,7 +11,7 @@
     "testRunner": "xunit",
     "dependencies": {
         "Sharper.C.Maybe.Testing": "2.0-*",
-        "Sharper.C.Testing.Xunit": "1.3",
+        "Sharper.C.Testing.Xunit": "1.*",
         "dotnet-test-xunit": "1.0.0-*"
     },
     "frameworks": {

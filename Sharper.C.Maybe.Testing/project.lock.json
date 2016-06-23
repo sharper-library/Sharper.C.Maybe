@@ -109,7 +109,7 @@
                     "lib/netstandard1.3/Sharper.C.Eq.dll": {}
                 }
             },
-            "Sharper.C.Testing/1.3.0": {
+            "Sharper.C.Testing/1.4.0": {
                 "type": "package",
                 "dependencies": {
                     "FSharp.Core": "4.0.0.1",
@@ -700,12 +700,12 @@
                 "lib/netstandard1.3/Sharper.C.Eq.dll"
             ]
         },
-        "Sharper.C.Testing/1.3.0": {
-            "sha512": "7OEDduKics5bqZpJeffo10XnrNFs6Ht8QIpOXRlFTswyQt/iBo7SbNY/syBBK/rGC4oPMj8VjlOVfCSS4fLyGA==",
+        "Sharper.C.Testing/1.4.0": {
+            "sha512": "FMx9sLImOFpmzaESK9jP8XA3ioOr0MfKU2gzsI9eWk1T9D4e5KAfTzhvUMfe1QvxzMewV0QLyfYrIOBxF8Aweg==",
             "type": "package",
-            "path": "Sharper.C.Testing/1.3.0",
+            "path": "Sharper.C.Testing/1.4.0",
             "files": [
-                "Sharper.C.Testing.1.3.0.nupkg.sha512",
+                "Sharper.C.Testing.1.4.0.nupkg.sha512",
                 "Sharper.C.Testing.nuspec",
                 "lib/net461/Sharper.C.Testing.dll"
             ]
